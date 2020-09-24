@@ -29,9 +29,8 @@ def replot(meniscus_arr):
     for i in range(idx):
         arr[i] = first_val
     p2.set_xdata(arr[::-1])
-    fig.canvas.draw()
+    fig.canvas.draw_idle()
     return arr
-
 
 def onclick(event):
     global meniscus_arr
