@@ -1,7 +1,9 @@
-numpy==1.13.3
-opencv-contrib-python
-imageio==2.2.0
-scikit-learn
-scipy
-matplotlib==2.0.2
-tqdm==4.19.5
+numpy==1.19.2
+opencv-contrib-python==4.4.0.42
+imageio==2.9.0
+scikit-learn==0.23.2
+scikit-image==0.17.2
+scipy==1.5.2
+matplotlib==3.3.2
+tqdm==4.49.0
+argparse==1.4.0
